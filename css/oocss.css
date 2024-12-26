@@ -1,9 +1,10 @@
 *,
-*:before,
-*:after {
+::after,
+::before {
   margin: 0;
   padding: 0;
 }
+
 .container {
   float: left;
   width: 100%;
@@ -15,12 +16,12 @@
 }
 
 .bg-gray {
-  background-color: #444;
+  background-color: #444444;
   color: #fff;
 }
 .bg-light {
-  background-color: #eee;
-  color: #4333;
+  background-color: #e6e4d9;
+  color: #444;
 }
 
 .clear {
