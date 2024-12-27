@@ -123,6 +123,9 @@ a img {
 .fontsize3b {
   font-size: 3.5rem;
 }
+.font-light {
+  font-weight: 300;
+}
 
 /* CONTAINER  */
 .container {
