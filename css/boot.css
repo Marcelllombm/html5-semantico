@@ -267,7 +267,14 @@ a img {
   font-size: 1.8rem;
   padding: 20px 40px;
 }
-
+.btn-blue {
+  background-color: #59aed1;
+  border-color: #4e99b7;
+}
+.btn-blue:hover {
+  background-color: #64c3ea;
+  border-color: #59aed1;
+}
 .btn-green {
   background-color: #59ab66;
   border-color: #4b9157;
@@ -275,4 +282,76 @@ a img {
 .btn-green:hover {
   background-color: #66c475;
   border-color: #59aa66;
+}
+.btn-yelow {
+  background-color: #d1be5a;
+  border-color: #db7a64e;
+}
+.btn-yelow:hover {
+  background-color: #d1bd59;
+  border-color: #d1be5a;
+}
+.btn-red {
+  background-color: #b26a6a;
+  border-color: #b26a6a;
+}
+
+/* TRIGGER  */
+.trigger {
+  float: left;
+  width: 100%;
+  padding: 25px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.trigger-bottom {
+  margin: 30px 0 0 0;
+}
+
+.trigger-accept {
+  background-color: #accc9a;
+  color: #6b7f60;
+}
+.trigger-infor {
+  background-color: #9ab7cc;
+  color: #60727f;
+}
+.trigger-alert {
+  background-color: #c6b247;
+  color: #776b2b;
+}
+.trigger-error {
+  background-color: #e69f9f;
+  color: #996a6a;
+}
+
+/* SHORT ICONS  */
+.shorticon {
+  padding-left: 8px;
+  background-position: center lef;
+  backgound-repeat: no-repeat;
+  background-size: auto 96%;
+}
+.shoticon-sectiontitle {
+  padding-left: 60px;
+}
+
+.shoticon-facebook {
+  background_image: url(boot/social/facebook.png);
+}
+.shoticon-google {
+  background_image: url(boot/social/google.png);
+}
+.shoticon-twitter {
+  background_image: url(boot/social/twitter.png);
+}
+
+.shoticon-config {
+  background_image: url(boot/icons/config.png);
+}
+.shoticon-mail {
+  background_image: url(boot/icons/mail.png);
+}
+.shoticon-section {
+  background_image: url(boot/icons/section.png);
 }
