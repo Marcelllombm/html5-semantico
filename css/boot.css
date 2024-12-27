@@ -98,7 +98,9 @@ a img {
 .font700 {
   font-weight: 700 !important;
 }
-
+.font-bold {
+  font-weight: bold;
+}
 /*FONT SIZE*/
 .fontzero {
   font-size: 0 !important;
@@ -161,7 +163,7 @@ a img {
   border-radius: 5px;
 }
 .last {
-  margin-right: 0;
+  margin-right: 0 !important;
 }
 .clear {
   clear: both;
@@ -328,10 +330,10 @@ a img {
 }
 
 /* SHORT ICONS  */
-.shorticon {
-  padding-left: 8px;
-  background-position: center lef;
-  backgound-repeat: no-repeat;
+.shoticon {
+  padding-left: 25px;
+  background-position: center left;
+  background-repeat: no-repeat;
   background-size: auto 96%;
 }
 .shoticon-sectiontitle {
@@ -339,21 +341,22 @@ a img {
 }
 
 .shoticon-facebook {
-  background_image: url(boot/social/facebook.png);
+  background-image: url(/css/boot/social/facebook.png);
 }
 .shoticon-google {
-  background_image: url(boot/social/google.png);
+  background-image: url(/css/boot/social/google.png);
 }
 .shoticon-twitter {
-  background_image: url(boot/social/twitter.png);
+  background-image: url(/css/boot/social/twitter.png);
 }
 
 .shoticon-config {
-  background_image: url(boot/icons/config.png);
+  background-image: url(/css/boot/icons/config.png);
 }
 .shoticon-mail {
-  background_image: url(boot/icons/mail.png);
+  background-image: url(/css/boot/icons/mail.png);
 }
+
 .shoticon-section {
-  background_image: url(boot/icons/section.png);
+  background-image: url(/css/boot/icons/section.png);
 }
