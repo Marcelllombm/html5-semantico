@@ -132,8 +132,74 @@ a img {
   margin: 0 10%;
   padding: 40px 0;
 }
+.content-page {
+  padding: 60px 0;
+}
+
+.sectiontitle {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.sectiontitle h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.sectiontitle-nomargin {
+  margin: 0;
+}
 
 /* HELPERS  */
+.textshadow {
+  text-shadow: 1px 1px 0 #ccc;
+}
+.boxshadow {
+  box-shadow: 0px 3px 3px 0px;
+}
+.radius {
+  border-radius: 5px;
+}
+.last {
+  margin-right: 0;
+}
 .clear {
   clear: both;
+}
+
+/* text align  */
+
+.al-left {
+  text-align: left;
+}
+.al-right {
+  text-align: right;
+}
+.al-center {
+  text-align: center;
+}
+
+/* float  */
+.fl-left {
+  float: left;
+}
+.fl-right {
+  float: right;
+}
+.fl-none {
+  float: none;
+}
+
+/* display  */
+.ds-block {
+  display: block;
+}
+.ds-inblock {
+  display: inline-block;
+}
+.ds-inline {
+  display: inline;
+}
+.ds-none {
+  display: none;
 }
