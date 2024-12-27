@@ -151,6 +151,10 @@ a img {
   font-size: 2.4rem;
   font-weight: 300;
 }
+.sectiontitle .tagline {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
 .sectiontitle-nomargin {
   margin: 0;
 }
