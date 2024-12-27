@@ -135,3 +135,27 @@
 .main_tec_item .tagline {
   font-size: 0.9rem;
 }
+
+/* FICHA TÉCNICA  */
+
+.main_info {
+  padding: 25px;
+  background: #eee;
+  text-align: center;
+}
+.main_info h1 {
+  font-size: 1rem;
+}
+.main_info b {
+  display: block;
+  font-size: 4rem;
+}
+
+/* DOBRA DE CONVERSÃO  */
+.main_chamada {
+  float: left;
+  width: 80%;
+  margin: 40px 10% 0 10%;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
