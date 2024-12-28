@@ -1,17 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR" itemscope itemtype="https://schema.org/WebSite">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+    olha esse video para melhora
+
+    https://www.youtube.com/watch?v=I9p3FSsc8WM&list=PLKoqnv2vTMUMtJE13ilkN7sNaUgfWmFzG
+    https://search.google.com/search-console/about
+    -->
 
     <meta name="language" content="pt-BR">
     <meta name="description" content="Esse é um site de teste"/>
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Título da Página">
-    <meta property="og:description" content="Descrição da Página"> '
-    <meta property="og:image" content="URL_da_Imagem">
-    <meta property="og:url" content="URL_da_Página">
     <link rel="canonical" href="https://www.exemplo.com/landing-page">
+
+    <!-- OPEN GRAPH-->
+  
+    <meta property="og:title" content="Título da Página"> 
+    <meta property="og:description" content="Descrição da Página"> 
+    <meta property="og:image" content="https://www.exemplo.com/imagem.jpg"> 
+    <meta property="og:url" content="https://www.exemplo.com/pagina"> 
+    <meta property="og:type" content="website"> 
+    <meta property="og:site_name" content="Nome do Site">
+    
+    <!-- TWITTER CARDS-->
+  
+    <meta name="twitter:card" content="summary_large_image"> 
+    <meta name="twitter:title" content="Título do Conteúdo"> 
+    <meta name="twitter:description" content="Descrição do Conteúdo"> 
+    <meta name="twitter:image" content="https://www.exemplo.com/imagem.jpg"> 
+    <meta name="twitter:site" content="@SeuPerfilTwitter"> 
+    <meta name="twitter:creator" content="@SeuPerfilTwitter">
+
+    <!-- JSON-LD -->
+     
+    <script type="application/ld+json"> 
+      { 
+        "@context": "https://schema.org", 
+        "@type": "Organization", "name": "Nome da Empresa", 
+        "url": "https://www.exemplo.com", 
+        "logo": "https://www.exemplo.com/logo.png", 
+        "contactPoint":{ 
+        "@type": "ContactPoint", 
+        "telephone": "+1-800-555-1212", 
+        "contactType": "Customer Service" 
+        } 
+      }
+  </script>
 
     <title>Curso Work Series - HTML5 do jeito Certo!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -248,18 +284,6 @@
         <div class="clear"></div>
       </section>
     </footer>
-    <script type="application/ld+json"> 
-      { 
-        "@context": "https://schema.org", 
-        "@type": "Organization", "name": "Nome da Empresa", 
-        "url": "https://www.exemplo.com", 
-        "logo": "https://www.exemplo.com/logo.png", 
-        "contactPoint": 
-        { "@type": "ContactPoint", 
-        "telephone": "+1-800-555-1212", 
-        "contactType": "Customer Service" 
-        } 
-      }
-  </script>
+  
   </body>
 </html>
